@@ -45,8 +45,6 @@ export default function ThemeColorDemo() {
               color: '#fff',
               cursor: 'pointer',
             }}
-            onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-            onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
           >
             {name}
           </button>
